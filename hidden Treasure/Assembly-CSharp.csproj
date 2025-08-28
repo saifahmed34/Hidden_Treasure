@@ -64,6 +64,9 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\The Fan-tasy Tileset (Free)\Tiled\Tilemaps\rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\unity\6000.0.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
