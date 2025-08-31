@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stanby_0: -7310284216265402634
+      Stanby_1: -2224712158020691160
+      Stanby_10: 6955904404051183237
+      Stanby_11: -2139376079718443792
+      Stanby_12: 47547351886574438
+      Stanby_13: -9012789242932063468
+      Stanby_14: 7156262246876874905
+      Stanby_15: -2618618769808922948
+      Stanby_16: 5157711270602720055
+      Stanby_17: -8561533382588040478
+      Stanby_18: -8550267520862529850
+      Stanby_19: 3784000691868774699
+      Stanby_2: -1057828693267141507
+      Stanby_20: 7251967674018076149
+      Stanby_21: 6124580453214115724
+      Stanby_22: 5457782222453425370
+      Stanby_23: 448862080892392512
+      Stanby_24: -6845360499815510922
+      Stanby_3: -4902466676859828712
+      Stanby_4: 5986361029069751533
+      Stanby_5: -1365561259861340119
+      Stanby_6: -6411207157745092250
+      Stanby_7: 2344133688212440088
+      Stanby_8: 8901487721101733378
+      Stanby_9: -5829443074166657065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

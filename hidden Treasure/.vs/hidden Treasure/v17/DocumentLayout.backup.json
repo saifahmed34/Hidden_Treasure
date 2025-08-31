@@ -1,13 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\saifa\\hidden Treasure\\",
+  "WorkspaceRootPath": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\hidden treasure\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\player\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saifa\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\mainmap\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saifa\\hidden Treasure\\Assets\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,14 +38,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\saifa\\hidden Treasure\\Assets\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\saifa\\hidden Treasure\\Assets\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "LevelStart.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\LevelStart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\LevelStart.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\LevelStart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\LevelStart.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T18:53:47.431Z",
+              "WhenOpened": "2025-08-31T04:10:12.282Z",
               "EditorCaption": ""
             },
             {
@@ -44,15 +55,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerMovement_Map.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\PlayerMovement_Map.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMap\\PlayerMovement_Map.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\PlayerMovement_Map.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMap\\PlayerMovement_Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T04:06:37.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:44:47.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\hidden Treasure\\Assets\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\hidden Treasure\\Assets\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\saifa\\hidden Treasure\\Assets\\PlayerMovement.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\hidden Treasure\\Assets\\PlayerMovement.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:53:47.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AutoLogin.cs",
-              "DocumentMoniker": "C:\\Users\\saifa\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
-              "ToolTip": "C:\\Users\\saifa\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAiwF4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T16:00:30.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T16:00:30.68Z"
             }
           ]
         }

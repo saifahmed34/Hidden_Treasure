@@ -61,7 +61,9 @@
     <Analyzer Include="D:\unity\6000.0.25f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\MainMap\LevelS\LevelNumber.cs" />
+    <Compile Include="Assets\Scripts\MainMap\LevelS\LevelStart.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement_Map.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\The Fan-tasy Tileset (Free)\Tiled\Tilemaps\rules.txt" />
