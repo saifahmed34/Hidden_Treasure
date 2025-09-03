@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelNumber.cs" />
+    <Compile Include="Assets\Scripts\Player\SpawnPlayer.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelStart.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement_Map.cs" />
   </ItemGroup>

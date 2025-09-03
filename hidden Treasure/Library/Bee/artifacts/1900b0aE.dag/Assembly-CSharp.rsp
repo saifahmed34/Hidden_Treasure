@@ -443,6 +443,7 @@
 "Assets/Scripts/MainMap/LevelS/LevelNumber.cs"
 "Assets/Scripts/MainMap/LevelS/LevelStart.cs"
 "Assets/Scripts/Player/PlayerMovement_Map.cs"
+"Assets/Scripts/Player/SpawnPlayer.cs"
 -langversion:9.0
 /deterministic
 /optimize+

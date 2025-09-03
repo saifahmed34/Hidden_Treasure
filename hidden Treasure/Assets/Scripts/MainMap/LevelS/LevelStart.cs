@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class LevelStart : MonoBehaviour
 {
     int Completed_Level = 0;
-    public GameObject player;
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

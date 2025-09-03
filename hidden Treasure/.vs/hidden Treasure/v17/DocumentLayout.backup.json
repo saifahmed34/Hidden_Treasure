@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\player\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\mainmap\\levels\\levelnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +39,60 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement_Map.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:02:29.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpawnPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\SpawnPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SpawnPlayer.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\SpawnPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\SpawnPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:59:18.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T05:00:14.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LevelStart.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T04:25:47.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LevelNumber.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelNumber.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMap\\LevelS\\LevelNumber.cs",
@@ -48,10 +101,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T04:19:38.139Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
