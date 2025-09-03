@@ -6,9 +6,12 @@ public class PlayerMovement_Map : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
     public float jumpForce = 7f;
     public bool isGrounded = false;
+    [SerializeField]
+    private Animator _Animator;
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        _Animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class PlayerMovement_Map : MonoBehaviour
         {
             transform.Translate(new Vector2(hor, 0) * speed * Time.deltaTime);
 
+
             if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             {
                 Rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -39,7 +43,17 @@ public class PlayerMovement_Map : MonoBehaviour
         else // In map scene, allow free movement
         {
             transform.Translate(new Vector2(hor, ver) * speed * Time.deltaTime);
+
         }
+        if (hor != 0 || ver != 0)
+        {
+            _Animator.SetBool("IsMoving", true);
+        }
+        else
+        {
+            _Animator.SetBool("IsMoving", false);
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
