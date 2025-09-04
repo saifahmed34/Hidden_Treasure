@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -44,7 +48,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
               "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T15:02:29.435Z",
               "EditorCaption": ""
@@ -59,12 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\SpawnPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T14:59:18.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-09-02T14:59:18.099Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T04:25:47.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T04:25:47.356Z"
             },
             {
               "$type": "Document",
