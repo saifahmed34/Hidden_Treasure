@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\enemy\\right-left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\right-left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\mainmap\\levels\\levelnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\levels\\levelnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|c:\\users\\saifa\\documents\\github\\hidden_treasure\\hidden treasure\\assets\\scripts\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\player\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmap\\levels\\levelstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7D2BE39-702B-E6AA-B7DA-D45469F2C964}|Assembly-CSharp.csproj|C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\assets\\scripts\\player\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Camera\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraFollow.cs",
-              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Camera\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Right-Left.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Enemy\\Right-Left.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Right-Left.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Enemy\\Right-Left.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Right-Left.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T19:14:01.666Z",
+              "WhenOpened": "2025-09-06T05:23:32.616Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +67,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Camera\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Camera\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:14:01.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CameraFollow.cs",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement_Map.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement_Map.cs",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SpawnPlayer.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\Player\\SpawnPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SpawnPlayer.cs",
@@ -98,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -109,19 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LevelStart.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "ToolTip": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMap\\LevelS\\LevelStart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T04:25:47.356Z"
+              "WhenOpened": "2025-08-31T04:25:47.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LevelNumber.cs",
               "DocumentMoniker": "C:\\Users\\saifa\\Documents\\GitHub\\Hidden_Treasure\\hidden Treasure\\Assets\\Scripts\\MainMap\\LevelS\\LevelNumber.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMap\\LevelS\\LevelNumber.cs",
@@ -129,8 +146,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMap\\LevelS\\LevelNumber.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T04:19:38.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T04:19:38.139Z"
             }
           ]
         }

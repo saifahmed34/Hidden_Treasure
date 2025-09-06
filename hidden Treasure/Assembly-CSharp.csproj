@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelNumber.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\SpawnPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Right-Left.cs" />
+    <Compile Include="Assets\Scripts\MainMap\LevelS\ToMainMap.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelStart.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement_Map.cs" />
   </ItemGroup>
