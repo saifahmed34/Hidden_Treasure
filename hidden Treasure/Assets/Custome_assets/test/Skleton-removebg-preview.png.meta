@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skleton-removebg-preview_0: 7972167328875399842
+      Skleton-removebg-preview_1: 347166002455526729
+      Skleton-removebg-preview_2: 879699708896751458
+      Skleton-removebg-preview_3: -7649078315223375735
+      Skleton-removebg-preview_4: -219202231186049703
+      Skleton-removebg-preview_5: 8119747844273749433
+      Skleton-removebg-preview_6: -5521996389943164988
+      Skleton-removebg-preview_7: 8249308809995040784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

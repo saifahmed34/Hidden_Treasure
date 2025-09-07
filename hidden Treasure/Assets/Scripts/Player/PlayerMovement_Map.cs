@@ -58,11 +58,16 @@ public class PlayerMovement_Map : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.contacts.Length > 0)
+        if (collision.gameObject.tag == "ground")
         {
             // When player touches ground, allow jumping again
             isGrounded = true;
+
         }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 }
 
