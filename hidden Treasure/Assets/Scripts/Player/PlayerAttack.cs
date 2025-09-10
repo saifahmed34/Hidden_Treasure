@@ -8,7 +8,13 @@ public class PlayerAttack : MonoBehaviour
     /* public PlayerAttack playerAttack;*/
 
     private float timer;
+    public AudioSource audioSource;
 
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -16,14 +22,18 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && timer >= shootCooldown) // left mouse click
         {
+
             Shoot();
+
             timer = 0f;
         }
     }
 
     void Shoot()
     {
+        audioSource.Play();
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+
 
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0f; // important in 2D
