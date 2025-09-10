@@ -824,31 +824,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &256827794 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9109394146109238633, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-  m_PrefabInstance: {fileID: 757544680}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &256827802 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8606408110611912704, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-  m_PrefabInstance: {fileID: 757544680}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &256827803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256827794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecc39c4d967375247ba34649914a2a57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8890728758579977990, guid: 5e5d2e3c0bf44bf458a977ad1032f3bd, type: 3}
-  firePoint: {fileID: 256827802}
-  shootCooldown: 0.3
 --- !u!1 &336521614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,8 +1796,8 @@ Transform:
   m_GameObject: {fileID: 515063601}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9725246, y: -4.554385, z: 0.07932074}
-  m_LocalScale: {x: 2.2651, y: 1, z: 1}
+  m_LocalPosition: {x: 3.2972, y: -4.554385, z: 0.07932074}
+  m_LocalScale: {x: 2.76161, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2104985459}
@@ -2109,7 +2084,7 @@ GameObject:
   - component: {fileID: 556059739}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_8
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2252,7 +2227,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -21.69, y: 4.34, z: 0.07932074}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.825979, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 136649353}
@@ -2841,14 +2816,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2020396224714795120, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020396224714795120, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-      propertyPath: jumpForce
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8606408110611912704, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.6
@@ -2893,17 +2860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 9109394146109238633, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9109394146109238633, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 256827803}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
 --- !u!1 &758315052
 GameObject:
@@ -3044,7 +3004,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2459958933347089174, guid: 7ea79975528b7674bb2365d8ed7b82ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6241,8 +6201,8 @@ Transform:
   m_GameObject: {fileID: 2114015876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70476174, w: 0.70944417}
-  m_LocalPosition: {x: -3.1215, y: -4.7399, z: 0.07932074}
-  m_LocalScale: {x: 4.105774, y: 1, z: 1}
+  m_LocalPosition: {x: -3.1073, y: -6.8803, z: 0.07932074}
+  m_LocalScale: {x: 2.5320308, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2104985459}

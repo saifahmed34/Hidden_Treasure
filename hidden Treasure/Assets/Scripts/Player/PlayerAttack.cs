@@ -5,8 +5,10 @@ public class PlayerAttack : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint; // where bullets spawn
     public float shootCooldown = 0.3f;
+    /* public PlayerAttack playerAttack;*/
 
     private float timer;
+
 
     void Update()
     {
