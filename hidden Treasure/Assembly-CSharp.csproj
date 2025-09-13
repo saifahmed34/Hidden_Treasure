@@ -63,8 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Lvl Objects\SkullSpawner.cs" />
     <Compile Include="Assets\Scripts\MainMap\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelNumber.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement_Map1.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\SpawnPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemy\Right-Left.cs" />
@@ -74,7 +76,6 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelStart.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\LevelsComponent.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement_Map.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\The Fan-tasy Tileset (Free)\Tiled\Tilemaps\rules.txt" />

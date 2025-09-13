@@ -9,6 +9,7 @@ public class PlayerAttack : MonoBehaviour
 
     private float timer;
     public AudioSource audioSource;
+    public PlayerMovement_Map playerMovement;
 
 
     private void Start()
@@ -20,7 +21,7 @@ public class PlayerAttack : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(0) && timer >= shootCooldown) // left mouse click
+        if (Input.GetKeyDown(KeyCode.J) && timer >= shootCooldown) // left mouse click
         {
 
             Shoot();
@@ -35,15 +36,14 @@ public class PlayerAttack : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
 
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePos.z = 0f; // important in 2D
 
-        Vector2 dir = (mousePos - firePoint.position).normalized;
+        Vector2 shootDirection = playerMovement.facingRight ? Vector2.right : Vector2.left;
 
-        bullet.GetComponent<Bullet>().SetDirection(dir);
+        // Set bullet direction
+        bullet.GetComponent<Bullet>().SetDirection(shootDirection);
 
-        // rotate to face the direction
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+        // Optional: rotate bullet so sprite points the same way
+        if (shootDirection == Vector2.left)
+            bullet.transform.localScale = new Vector3(-0.4f, 0.4f, 0.4f);
     }
 }

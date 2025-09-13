@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 17931738}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (21)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 76874501}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (18)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 163139458}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (16)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -798,7 +798,7 @@ GameObject:
   - component: {fileID: 336521616}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (25)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 381378741}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1047,8 +1047,8 @@ Transform:
   m_GameObject: {fileID: 381378740}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 24.18, y: -0.94000006, z: 0.07932074}
-  m_LocalScale: {x: 2.2651, y: 1, z: 1}
+  m_LocalPosition: {x: 24.18, y: 2.8123, z: 0.07932074}
+  m_LocalScale: {x: 5.0242186, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2104985459}
@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 427575692}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (19)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 486538725}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (17)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1776,7 +1776,7 @@ GameObject:
   - component: {fileID: 540229052}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (24)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2429,6 +2429,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &641695130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641695128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b20fd56fa62f01458aa4d84c5be522d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 7
+  flySpeed: 5
 --- !u!1 &689682795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,7 +2457,7 @@ GameObject:
   - component: {fileID: 689682797}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2749,6 +2764,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 641695129}
+    - target: {fileID: 7703049379345712740, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 388069372953369510, guid: 2d03d98dd7b4c204d9f037ad0a2cc7af, type: 3}
     - target: {fileID: 8606408110611912704, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.6
@@ -2793,13 +2812,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2020396224714795120, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9109394146109238633, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 641695129}
+    - targetCorrespondingSourceObject: {fileID: 9109394146109238633, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 641695130}
   m_SourcePrefab: {fileID: 100100000, guid: f1e815f1b53c9a14983e6bf7497512b3, type: 3}
 --- !u!1 &758315052
 GameObject:
@@ -3079,7 +3102,7 @@ GameObject:
   - component: {fileID: 813858825}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (20)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3213,7 +3236,7 @@ GameObject:
   - component: {fileID: 890386272}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (27)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5400,7 +5423,7 @@ GameObject:
   - component: {fileID: 1739905160}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (23)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5735,7 +5758,7 @@ GameObject:
   - component: {fileID: 1861935504}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (26)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6359,7 +6382,7 @@ GameObject:
   - component: {fileID: 2114015877}
   m_Layer: 0
   m_Name: ChatGPT_Image_Sep_4__2025__05_14_16_PM-removebg-preview_0 (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,6 +7,7 @@ TagManager:
   - Level1
   - ground
   - Enemy
+  - wall
   layers:
   - Default
   - TransparentFX
