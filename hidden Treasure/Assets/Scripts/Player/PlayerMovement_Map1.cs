@@ -42,7 +42,7 @@ public class PlayerMovement_Map : MonoBehaviour
 
         // -------- LEVEL SCENES (Platformer movement) --------
         if (currentScene == "tutorial" || currentScene == "Lvl uno" ||
-            currentScene == "Level3" || currentScene == "LastLevel")
+            currentScene == "Level2" || currentScene == "LastLevel")
         {
             if (!isFlying)
             {
