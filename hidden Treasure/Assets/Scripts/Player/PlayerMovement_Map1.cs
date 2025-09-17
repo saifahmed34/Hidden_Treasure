@@ -3,6 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement_Map : MonoBehaviour
 {
+    private float Startx, Starty;
+    private float miny1, miny2;
+    private string curState;
+
+    [Header("Dash Settings")]
+    public float dashSpeed = 15f;
+    public float dashDuration = 0.2f;
+
+    private bool isDashing = false;
+    private float dashTimer = 0f;
+
     [Header("Movement Settings")]
     public float speed = 5f;
     public float jumpForce = 7f;
@@ -27,12 +38,89 @@ public class PlayerMovement_Map : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        Startx = transform.position.x;
+        Starty = transform.position.y;
     }
 
     void Update()
     {
-        Move();
+        if (SceneManager.GetActiveScene().name != curState)
+        {
+            if (SceneManager.GetActiveScene().name == "Level1")
+            {
+                miny1 = -11;
+                miny2 = 24;
+                transform.localScale = new Vector3(4, 4, 1);
+                curState = SceneManager.GetActiveScene().name;
+            }
+            else if (SceneManager.GetActiveScene().name == "MainMap")
+            {
+                transform.position = new Vector3(-7.14f, -1.87f, 0);
+                transform.localScale = new Vector3(1.5f, 1.5f, 1);
+                curState = SceneManager.GetActiveScene().name;
+                isFlying = false;
+                _rigidbody2D.gravityScale = 1f;
+                _spriteRenderer.flipY = false;
+            }
+        }
+
+        if (!isDashing)
+        {
+            Move();
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                StartDash();
+            }
+        }
+        else
+        {
+            dashTimer -= Time.deltaTime;
+
+            if (dashTimer <= 0f)
+            {
+                EndDash();
+            }
+        }
+        if (SceneManager.GetActiveScene().name == "Level1")
+        {
+            if (transform.position.y < miny1 || transform.position.y > miny2)
+            {
+                RestartLevel();
+            }
+        }
     }
+
+    private void RestartLevel()
+    {
+        Vector3 newPos = transform.position;
+
+        newPos.x = Startx;
+        newPos.y = Starty;
+
+        isFlying = false;
+        _rigidbody2D.gravityScale = 1f;
+        _spriteRenderer.flipY = false;
+        transform.position = newPos;
+    }
+
+    private void StartDash()
+    {
+        isDashing = true;
+        dashTimer = dashDuration;
+
+        float dashDirection = facingRight ? 1f : -1f;
+
+        _rigidbody2D.gravityScale = 0f;
+        _rigidbody2D.linearVelocity = new Vector2(dashDirection * dashSpeed, 0f);
+    }
+
+    private void EndDash()
+    {
+        isDashing = false;
+        _rigidbody2D.gravityScale = 1f;
+    }
+
 
     private void Move()
     {
@@ -41,7 +129,7 @@ public class PlayerMovement_Map : MonoBehaviour
         string currentScene = SceneManager.GetActiveScene().name;
 
         // -------- LEVEL SCENES (Platformer movement) --------
-        if (currentScene == "tutorial" || currentScene == "Lvl uno" ||
+        if (currentScene == "tutorial" || currentScene == "Level1" ||
             currentScene == "Level2" || currentScene == "LastLevel")
         {
             if (!isFlying)
