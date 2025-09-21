@@ -5,6 +5,7 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public float lifetime = 2f;
     public int damage = 1;
+    public bool isFromCannon2 = false; // Set true for cannon2 bullets
 
     private Vector2 direction;
 
@@ -18,28 +19,40 @@ public class Bullet : MonoBehaviour
         transform.Translate(direction * speed * Time.deltaTime, Space.World);
     }
 
-    public void SetDirection(Vector2 dir)
+    public void SetDirection(Vector2 dir, float spd = 10f, bool fromCannon2 = false)
     {
         direction = dir.normalized;
+        speed = spd;
+        isFromCannon2 = fromCannon2;
+        gameObject.tag = "Bullet";
     }
 
+    [System.Obsolete]
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
-            /*        // Damage enemy
-                    Enemy enemy = collision.GetComponent<Enemy>();
-                    if (enemy != null)
-                    {*/
-            /*         enemy.TakeDamage(damage);
-                 }*/
             Destroy(collision.gameObject);
-            Destroy(gameObject); // Destroy on hit
+            Destroy(gameObject);
         }
-        if (collision.gameObject.CompareTag("wall"))
+        else if (collision.CompareTag("wall"))
         {
             Destroy(gameObject);
         }
-    }
+        else if (collision.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            Destroy(collision.gameObject);
+        }
+        else if (isFromCannon2 && collision.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject); // Destroy player
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("box"))
+        {
+            FindObjectOfType<ShootCannon>().ShootUpFromCannon2();
 
+        }
+    }
 }

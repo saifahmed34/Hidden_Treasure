@@ -12,6 +12,7 @@ TagManager:
   - button
   - bullet
   - Chest
+  - box
   layers:
   - Default
   - TransparentFX
