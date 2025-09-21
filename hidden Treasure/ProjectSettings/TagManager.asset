@@ -11,6 +11,7 @@ TagManager:
   - Level2
   - button
   - bullet
+  - Chest
   layers:
   - Default
   - TransparentFX

@@ -9,10 +9,12 @@ public class PlayerMovement_Map : MonoBehaviour
 
     [Header("Dash Settings")]
     public float dashSpeed = 15f;
-    public float dashDuration = 0.2f;
+    public float dashDuration = 0.2f;   // how long dash lasts
+    public float dashCooldown = 1f;     // time between dashes
 
     private bool isDashing = false;
     private float dashTimer = 0f;
+    private float dashCooldownTimer = 0f; // timer for cooldown
 
     [Header("Movement Settings")]
     public float speed = 5f;
@@ -44,6 +46,7 @@ public class PlayerMovement_Map : MonoBehaviour
 
     void Update()
     {
+        // Scene-specific setup
         if (SceneManager.GetActiveScene().name != curState)
         {
             if (SceneManager.GetActiveScene().name == "Level1")
@@ -64,11 +67,15 @@ public class PlayerMovement_Map : MonoBehaviour
             }
         }
 
+        // Dash cooldown
+        if (dashCooldownTimer > 0f)
+            dashCooldownTimer -= Time.deltaTime;
+
         if (!isDashing)
         {
             Move();
 
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldownTimer <= 0f)
             {
                 StartDash();
             }
@@ -82,6 +89,8 @@ public class PlayerMovement_Map : MonoBehaviour
                 EndDash();
             }
         }
+
+        // Death check for Level1
         if (SceneManager.GetActiveScene().name == "Level1")
         {
             if (transform.position.y < miny1 || transform.position.y > miny2)
@@ -108,6 +117,7 @@ public class PlayerMovement_Map : MonoBehaviour
     {
         isDashing = true;
         dashTimer = dashDuration;
+        dashCooldownTimer = dashCooldown; // reset cooldown
 
         float dashDirection = facingRight ? 1f : -1f;
 
@@ -121,16 +131,14 @@ public class PlayerMovement_Map : MonoBehaviour
         _rigidbody2D.gravityScale = 1f;
     }
 
-
     private void Move()
     {
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
         string currentScene = SceneManager.GetActiveScene().name;
 
-        // -------- LEVEL SCENES (Platformer movement) --------
         if (currentScene == "tutorial" || currentScene == "Level1" ||
-            currentScene == "Level2" || currentScene == "LastLevel")
+            currentScene == "Level2" || currentScene == "LastLevel" || currentScene == "Level3")
         {
             if (!isFlying)
             {
@@ -169,18 +177,17 @@ public class PlayerMovement_Map : MonoBehaviour
 
         _animator.SetBool("IsMoving", hor != 0 || ver != 0);
 
-        // -------- SPRITE + FIREPOINT FLIP (left/right) --------
         if (hor > 0 && !facingRight)
         {
             facingRight = true;
             _spriteRenderer.flipX = false;
-            firePoint.localPosition = new Vector3(0.5f, firePoint.localPosition.y, firePoint.localPosition.z); // right
+            firePoint.localPosition = new Vector3(0.5f, firePoint.localPosition.y, firePoint.localPosition.z);
         }
         else if (hor < 0 && facingRight)
         {
             facingRight = false;
             _spriteRenderer.flipX = true;
-            firePoint.localPosition = new Vector3(-0.5f, firePoint.localPosition.y, firePoint.localPosition.z); // left
+            firePoint.localPosition = new Vector3(-0.5f, firePoint.localPosition.y, firePoint.localPosition.z);
         }
     }
 

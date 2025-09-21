@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Enemy\Right-Left.cs" />
     <Compile Include="Assets\Scripts\MainMap\LevelS\ToMainMap.cs" />
     <Compile Include="Assets\Scripts\Enemy\AutoSpawn.cs" />
+    <Compile Include="Assets\ChestOpen.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\MainMenu.cs" />
@@ -91,6 +92,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Treasure Chests\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

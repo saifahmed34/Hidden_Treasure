@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class SkullSpawner : MonoBehaviour
 {
-    public GameObject skullPrefab;   // skull prefab
-    public float spawnInterval = 4f; // spawning time interval
-    public Transform spawnPoint;     // spawning possision
-    public float moveSpeed = 2f;     // skull movement speed
-    public float lifeTime = 10f;     // destroy after that time
+    public GameObject skullPrefab;
+    public float spawnInterval = 4f;
+    public Transform spawnPoint;
+    public float moveSpeed = 2f;
+    public float lifeTime = 10f;
+
+    public enum Direction { Right, Left, Up, Down }
+    public Direction moveDirection = Direction.Right;
 
     private float timer;
 
@@ -22,19 +25,21 @@ public class SkullSpawner : MonoBehaviour
 
     void SpawnSkull()
     {
-        // skull initialization
         GameObject skull = Instantiate(skullPrefab, spawnPoint.position, Quaternion.identity);
-
-        // skull movement
         Rigidbody2D rb = skull.GetComponent<Rigidbody2D>();
         rb.bodyType = RigidbodyType2D.Kinematic;
-        if (rb != null)
+
+        Vector2 dir = Vector2.zero;
+        switch (moveDirection)
         {
-            rb.linearVelocity = transform.right * moveSpeed;
-            // -moveSpeed for left
+            case Direction.Right: dir = transform.right; break;
+            case Direction.Left: dir = -transform.right; break;
+            case Direction.Up: dir = transform.up; break;
+            case Direction.Down: dir = -transform.up; break;
         }
 
-        // destroy object
+        rb.linearVelocity = dir * moveSpeed;
+
         Destroy(skull, lifeTime);
     }
 }
