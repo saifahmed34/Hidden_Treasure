@@ -13,6 +13,7 @@ TagManager:
   - bullet
   - Chest
   - box
+  - Bullet
   layers:
   - Default
   - TransparentFX

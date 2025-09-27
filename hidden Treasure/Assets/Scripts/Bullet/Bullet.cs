@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
@@ -44,15 +45,15 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
-        else if (isFromCannon2 && collision.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject); // Destroy player
-            Destroy(gameObject);
-        }
         else if (collision.gameObject.CompareTag("box"))
         {
-            FindObjectOfType<ShootCannon>().ShootUpFromCannon2();
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

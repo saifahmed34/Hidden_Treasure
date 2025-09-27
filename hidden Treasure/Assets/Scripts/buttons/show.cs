@@ -16,7 +16,7 @@ public class show : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("bullet"))
+        if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(collision.gameObject);
             path.SetActive(true);

@@ -6,6 +6,10 @@ public class PlayerMovement_Map : MonoBehaviour
     private float Startx, Starty;
     private float miny1, miny2;
     private string curState;
+    private bool lvl2 = false;
+    private bool lvl4 = false;
+    
+    private bool lvltl = false;
 
     [Header("Dash Settings")]
     public float dashSpeed = 15f;
@@ -64,6 +68,48 @@ public class PlayerMovement_Map : MonoBehaviour
                 isFlying = false;
                 _rigidbody2D.gravityScale = 1f;
                 _spriteRenderer.flipY = false;
+            }
+            else if (SceneManager.GetActiveScene().name == "Level2")
+            {
+                if (!lvl2)
+                {
+                    transform.position = new Vector2(-4.6f, -1.82f);
+                    lvl2 = true;
+                    isFlying = false;
+                    _rigidbody2D.gravityScale = 1f;
+                    _spriteRenderer.flipY = false;
+                }
+                if (transform.position.y > 25 || transform.position.y < -15)
+                {
+                    isFlying = false;
+                    _rigidbody2D.gravityScale = 1f;
+                    _spriteRenderer.flipY = false;
+                    transform.position = new Vector3(-4.6f,-1.82f,0);
+                }
+            }
+            else if (SceneManager.GetActiveScene().name == "Level4")
+            {
+                if (!lvl4)
+                {
+                    transform.position = new Vector2(43f, 8f);
+                    lvl4 = true;
+                    isFlying = false;
+                    _rigidbody2D.gravityScale = 1f;
+                    _spriteRenderer.flipY = false;
+                    transform.localScale = new Vector3(2.5f, 2.5f, 1);
+                }
+            }
+            else if (SceneManager.GetActiveScene().name == "TreasureLevel")
+            {
+                if (!lvltl)
+                {
+                    transform.position = new Vector2(-4.6f, -1.82f);
+                    lvltl = true;
+                    isFlying = false;
+                    _rigidbody2D.gravityScale = 1f;
+                    _spriteRenderer.flipY = false;
+                    transform.localScale = new Vector3(4, 4, 1);
+                }
             }
         }
 
@@ -138,7 +184,7 @@ public class PlayerMovement_Map : MonoBehaviour
         string currentScene = SceneManager.GetActiveScene().name;
 
         if (currentScene == "tutorial" || currentScene == "Level1" ||
-            currentScene == "Level2" || currentScene == "LastLevel" || currentScene == "Level3")
+            currentScene == "Level2" || currentScene == "LastLevel" || currentScene == "TreasureLevel" || currentScene == "Level3" || currentScene == "Level4")
         {
             if (!isFlying)
             {
@@ -198,6 +244,10 @@ public class PlayerMovement_Map : MonoBehaviour
             groundContacts++;
             isGrounded = true;
         }
+        if (collision.gameObject.CompareTag("Bullet") && SceneManager.GetActiveScene().name == "Level4")
+        {
+            RestartLevel();
+        }   
     }
 
     private void OnCollisionExit2D(Collision2D collision)
